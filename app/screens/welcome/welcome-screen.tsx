@@ -59,7 +59,7 @@ const BOWSER: ImageStyle = {
   alignSelf: "center",
   marginVertical: spacing[5],
   maxWidth: "100%",
-  width: 343,
+  width: 175,
   height: 230,
 }
 const CONTENT: TextStyle = {
