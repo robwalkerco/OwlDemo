@@ -166,6 +166,7 @@ export const DemoScreen: FC<StackScreenProps<NavigatorParamList, "demo">> = obse
           <Button
             style={DEMO}
             textStyle={DEMO_TEXT}
+            testID="demo-screen-button"
             tx="demoScreen.demoList"
             onPress={() => navigation.navigate("demoList")}
           />

@@ -72,6 +72,7 @@ export const DemoListScreen: FC<StackScreenProps<NavigatorParamList, "demoList">
             contentContainerStyle={FLAT_LIST}
             data={[...characters]}
             keyExtractor={(item) => String(item.id)}
+            testID="demo-list"
             renderItem={({ item }) => (
               <View style={LIST_CONTAINER}>
                 <Image source={{ uri: item.image }} style={IMAGE} />
